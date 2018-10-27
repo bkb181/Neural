@@ -17,7 +17,7 @@ def soft_max(z_mtx):
         sigma_vct.append(z / sum)
     return np.array(sigma_vct)
 
-a = np.array([1, 2, 3, 4, 5], np.float64)
+a = np.array([1, 2, 2, 4, 5], np.float64)
 b = np.array(np.ones(5))
 # a = a.astype(np.float)
 
